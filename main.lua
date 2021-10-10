@@ -88,10 +88,10 @@ end
 
 function PTRIssueHide:ChatCommands(msg)
     local DB = self.db.profile
-    msg = string.lower(msg);
-	local args = {};
+    msg = string.lower(msg)
+	local args = {}
 	for word in string.gmatch(msg, "[^%s]+") do
-		table.insert(args, word);
+		table.insert(args, word)
 	end
     if args[1] == nil then
         AceConfigDialog:Open("PTRIssueHide")
