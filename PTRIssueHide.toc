@@ -4,7 +4,7 @@
 ## Notes: Toggle the PTR Issue Reporter Frame (For PTR Client Only of course)
 ## OptionalDeps: Ace3
 ## SavedVariables: PTRIssueHideDB
-## Version: 1.0
+## Version: 1.1
 ## DefaultState: Enabled
 
 #@no-lib-strip@
